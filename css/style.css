@@ -132,7 +132,7 @@ main {
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
-  border: 1px solid rgba(192, 204, 218, 0.2);
+  border: 1.5px solid rgba(192, 204, 218, 0.3);
   min-height: 110px;
   margin-top: 69px;
   margin-bottom: 100px;

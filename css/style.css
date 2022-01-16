@@ -252,6 +252,127 @@ main {
   cursor: pointer;
 }
 
+.contact_us{
+  text-align: center;
+  line-height: 60px;
+  font-size: 40px;
+}
+
+.contact_us_span{
+  color: lightpink;
+}
+
+.contact_us a {
+  text-decoration: none;
+  color: black;
+}
+
+.contact_us a:hover {
+  color: lightpink;
+}
+
+.box-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.box{
+  width: 450px;
+  height: 400px;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 5px 5px gray;
+  padding: 20px;
+  border-radius: 15px;
+  font-size: 27px;
+  margin: 30px;
+}
+
+.box:hover {
+  background-color: lightpink;
+  color: white;
+  cursor: pointer;
+  transition: all .5s ease;
+}
+
+.box-heading{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.box_paragraph {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.box_icon {
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+}
+
+.form_container {
+  width: 100%;
+  height: 500px;
+  border-radius: 9px;
+  margin: 0 2.5px 30px;
+  padding: 30px 30px;
+  background: whitesmoke;
+}
+
+.heading_four{
+  font-size: 25px;
+  text-align: center;
+}
+
+.e_mail {
+  margin-right: 30px;
+}
+.form_input{
+  width: 550px;
+  height: 55px;
+  border-radius: 8px;
+  margin-left: 20px;
+}
+.form_input_group{
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.email_input{
+  margin-left: 40px;
+}
+
+.submit_button{
+  width: 200px;
+  height: 50px;
+  padding: 15px;
+  font-size: 15px;
+  border: none;
+  background: #e02c6d;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.message_icon{
+  margin-right: 14px;
+}
+
+.submit_button:hover {
+  cursor: pointer;
+  color: #ffffff;
+  width: 250px;
+  transition: all .5s ease-in-out;
+  font-size: 20px;
+}
 footer {
   width: 100%;
   height: 300px;
@@ -393,6 +514,13 @@ footer h2 {
   .partners_container img {
       max-width: 80px;
     margin:15px;
+}
+
+.box-container{
+  width: 100%;
+} 
+.form_container {
+  width: 100%;
 }
 }
 
